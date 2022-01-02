@@ -1,6 +1,7 @@
 # NLP-to-write-poem
 Created a model to NLP model to write something beautiful, some poem maybe, covering up for my poor languages skills.  
 
+Its made using tensorflow, so if you don't have it, install it using the code below
 ```
 !pip install tensorflow
 ```
