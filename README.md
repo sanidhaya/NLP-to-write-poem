@@ -22,6 +22,6 @@ model.compile(loss='categorical_crossentropy', optimizer=adam, metrics=['accurac
 model.summary()
 ```
 
-
+*If you will un comment the code the number of parameters will rise to about 35Mn.*
 
 ![model image](https://github.com/sanidhaya/NLP-to-write-poem/blob/main/Capture1.PNG)
