@@ -15,10 +15,12 @@ You can install the required Python packages using the following:
 
 ```bash
 pip install tensorflow gdown numpy matplotlib
+```
 
 Its made using tensorflow, so if you don't have it, install it using the code below
 ```
 !pip install tensorflow
+```
 
 ## Database
 
