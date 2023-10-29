@@ -24,6 +24,11 @@ Its made using tensorflow, so if you don't have it, install it using the code be
 [Find the text used as the corpus here](https://drive.google.com/uc?id=15UqmiIm0xwh9mt0IYq2z3jHaauxQSTQT)
 
 ```
+
+### Model Architecture
+
+The NLP model architecture includes layers such as Embedding, Bidirectional LSTM, Bidirectional GRU, and Dense layers. Different configurations are commented out in the code, and you can experiment with them to observe different results.
+
 ```
 model = Sequential()
 model.add(Embedding(total_words, 100, input_length=max_sequence_len-1))
