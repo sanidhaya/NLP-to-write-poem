@@ -19,13 +19,18 @@ pip install tensorflow gdown numpy matplotlib
 Its made using tensorflow, so if you don't have it, install it using the code below
 ```
 !pip install tensorflow
+
+## Database
+
+The script uses the "irish-lyrics-eof.txt" dataset for training. You can download the dataset from
+
 ```
 
 [Find the text used as the corpus here](https://drive.google.com/uc?id=15UqmiIm0xwh9mt0IYq2z3jHaauxQSTQT)
 
 ```
 
-### Model Architecture
+## Model Architecture
 
 The NLP model architecture includes layers such as Embedding, Bidirectional LSTM, Bidirectional GRU, and Dense layers. Different configurations are commented out in the code, and you can experiment with them to observe different results.
 
@@ -47,3 +52,9 @@ model.summary()
 *If you will un comment the code the number of parameters will rise to about 35Mn.*
 
 ![model image](https://github.com/sanidhaya/NLP-to-write-poem/blob/main/Capture1.PNG)
+
+## Generating Poems 
+
+Uncomment the code section at the end to generate poems. Adjust the seed_text and next_words variables to control the generation process.
+
+Feel free to experiment with different hyperparameters and configurations to generate unique poems.
