@@ -1,5 +1,20 @@
-# NLP-to-write-poem
-Created a model to NLP model to write something beautiful, some poem maybe, covering up for my poor languages skills.  
+# NLP Poem Generator
+
+This repository contains a Python script for generating poems using Natural Language Processing (NLP) techniques. The code is implemented in a Jupyter notebook named `NLP_Poem.ipynb`, originally created in Google Colaboratory.
+
+## Prerequisites
+
+Make sure you have the following dependencies installed:
+
+- TensorFlow
+- gdown
+- NumPy
+- Matplotlib
+
+You can install the required Python packages using the following:
+
+```bash
+pip install tensorflow gdown numpy matplotlib
 
 Its made using tensorflow, so if you don't have it, install it using the code below
 ```
