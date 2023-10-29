@@ -24,6 +24,7 @@ Its made using tensorflow, so if you don't have it, install it using the code be
 [Find the text used as the corpus here](https://drive.google.com/uc?id=15UqmiIm0xwh9mt0IYq2z3jHaauxQSTQT)
 
 ```
+```
 model = Sequential()
 model.add(Embedding(total_words, 100, input_length=max_sequence_len-1))
 model.add(Bidirectional(GRU(128, return_sequences=True)))
